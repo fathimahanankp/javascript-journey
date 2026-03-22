@@ -1,0 +1,23 @@
+body {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 100px;
+  background-color: #222;
+  color: white;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+#count {
+  font-size: 4rem;
+  margin: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  margin: 10px;
+  cursor: pointer;
+}
