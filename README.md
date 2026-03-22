@@ -33,7 +33,7 @@ A simple number guessing game where the user tries to guess a randomly generated
 
 ---
 
-### 🔢 Counter App *(Coming Soon)*
+### 🔢 Counter App 
 
 A basic counter with increment, decrement, and reset functionality.
 
@@ -75,6 +75,7 @@ To build a strong foundation in JavaScript by creating small, functional, and in
 ## 📈 Progress
 
 * ✅ Guess My Number
+* ✅ Counter App
 * 🔄 More projects coming soon
 
 ---
