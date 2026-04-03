@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang = "en"></html>
+
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login & Signup System</title>
+    <link rel="stylesheet" href="style.css"
+</head>
+
+<body>
+    <div class = "container">
+        <h2 id = "formTitle">Login</h2>
+
+        <form id = "authForm">
+
+            <div class = "inputGroup" id="nameGroup">
+                <label>Name</label>
+                <input type="text" id="name" placeholder="Enter your name">
+                <div class = "error" id = "nameError">Name is required</div>
+            </div>
+
+            <div class = "inputGroup">
+                <label>Email</label>
+                <input type = "text" id="email" placeholder="Enter your email">
+                <div class = "error" id = "emailError">Enter a valid email</div>
+            </div>
+
+            <div class = "inputGroup">
+                <label>Password</label>
+                <input type = "password" id = "password" placeholder="Enter your password">
+                <div class = "error" id = "passwordError">Password must be at least 6 characters</div>  
+            </div>
+
+            <button type = "submit" id = "submitBtn">Login</button>
+
+            <div class = "success" id="successMsg"></div>
+
+        </form>
+
+        <div class = "toggle">
+            <span id = "toggleText">Don't have an account?</span>
+            <span class = "toggleLink" id = "toggleLink" onclick="toggleForm()">Sign Up</span>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
